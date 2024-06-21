@@ -1,0 +1,12 @@
+pragma solidity 0.8.17;
+ contract pay{
+ 
+ 
+  
+  function transferEther()external payable{
+
+  }
+  function get_balance()external view returns(uint){
+    return address(this).balance;
+  }
+ }
